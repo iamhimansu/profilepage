@@ -1,0 +1,23 @@
+body {
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.gradient-blue {
+  background-image: linear-gradient(
+    to right top,
+    #d32c8b,
+    #b43191,
+    #933593,
+    #703890,
+    #4c3888,
+    #343c83,
+    #1b3f7b,
+    #003f71,
+    #004467,
+    #00465a,
+    #1b474e,
+    #304645
+  );
+}
