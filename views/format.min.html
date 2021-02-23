@@ -1,0 +1,21 @@
+<div class="accordion border rounded p-0 mt-3">
+    <div class="row align-items-center justify-content-between no-gutters">
+        <div class="col">
+            <button class="btn btn-block text-left mb-0" type="button" data-toggle="collapse"
+                data-target="#${reference_block}_preview" aria-expanded="true" aria-controls="collapseOne">
+                <span class="preview_enabled">Preview</span>
+            </button>
+        </div>
+        <div class="col-auto">
+            <button class="align-self-end btn mb-0 btn-white btn-sm rounded-pill mr-2 toggle_link_preview"
+                type="button">
+                <span class="link_preview_enabled">Turn off</span>
+            </button>
+        </div>
+    </div>
+    <div id="${reference_block}_preview" class="collapse show">
+        <div class="embed-responsive embed-responsive-21by9 rounded-bottom">
+            <iframe class="embed-responsive-item" src="${v_id}" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
